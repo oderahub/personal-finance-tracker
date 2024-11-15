@@ -19,7 +19,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/personal-finance-tracker">
       <Routes>
         <Route
           path="/"
